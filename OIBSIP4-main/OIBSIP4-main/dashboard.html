@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard | Secure Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkAuth()">
+
+<div class="auth-box">
+    <h2>Dashboard 🔐</h2>
+    <p class="subtitle">You are successfully logged in</p>
+
+    <p class="info">
+        This page is protected and accessible only after authentication.
+    </p>
+
+    <button onclick="logout()">Logout</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
